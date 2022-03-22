@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dist/css/style.css">
+    <title>Tailwind</title>
+</head>
+
+<body class="bg-gradient-to-r from-pink-500 to-pink-900">
+    <!-- Start Alerts  -->
+    <!-- <section class="w-1/2 font-sans flex flex-col gap-y-4 justify-start">
+        <section
+            class="flex items-center justify-between font-bold bg-red-400 border text-white rounded-md text-xl py-3 px-5 w-full shadow-md"
+            x-show="open" x-data="{open : true}">You Can't Do This !!
+            <span class="cursor-pointer text-3xl" x-on:click="open = false">&times;</span>
+        </section>
+        <section
+            class="flex items-center justify-between font-bold bg-green-500 border text-white rounded-md text-xl py-3 px-5 w-full shadow-md"
+            x-data="{open : true}" x-show="open">Login Successfull !
+            <span class="cursor-pointer text-3xl" x-on:click="open = false">&times;</span>
+        </section>
+        <section
+            class="flex items-center justify-between font-bold bg-gray-400 border text-white rounded-md text-xl py-3 px-5 w-full shadow-md"
+            x-data="{open : true}" x-show="open">Hello Friend :D
+            <span class="cursor-pointer text-3xl" x-on:click="open=false">&times;</span>
+        </section>
+        <section
+            class="flex items-center justify-between font-bold bg-dark-100 border text-white rounded-md text-xl py-3 px-5 w-full shadow-md"
+            x-data="{open : true}" x-show="open">yo , Im a Dark Alert !
+            <span class="cursor-pointer text-3xl" x-on:click="open=false">&times;</span>
+        </section>
+    </section> -->
+    <!-- End Alerts  -->
+    <!-- Start Buttons  -->
+    <!-- <section class="flex flex-wrap gap-4 w-1/2">
+        <button class="rounded-md bg-red-500 text-white py-3 px-4 focus:ring ring-red-400 outline-none transition text-base border-none hover:bg-red-600">Danger Button</button>
+        <button class="rounded-md bg-green-500 text-white py-3 px-4 focus:ring ring-green-400 outline-none transition text-base border-none hover:bg-green-600">Success Button</button>
+        <button class="rounded-md bg-gray-500 text-white py-3 px-4 focus:ring ring-gray-400 outline-none transition text-base border-none hover:bg-gray-600">Primary Button</button>
+        <button class="rounded-md bg-yellow-500 text-white py-3 px-4 focus:ring ring-yellow-400 outline-none transition text-base border-none hover:bg-yellow-600">Warning Button</button>
+        <button class="rounded-md bg-blue-500 text-white py-3 px-4 focus:ring ring-blue-400 outline-none transition text-base border-none hover:bg-blue-600">Info Button</button>
+    </section> -->
+    <!-- End Buttons  -->
+    <!-- Start Pagination  -->
+    <!-- <section class="flex w-1/2 gap-4 flex-wrap">
+        <ul class="flex cursor-pointer rounded overflow-hidden divide-x bg-red-500 text-white">
+            <li class="py-2 px-4 transition hover:bg-red-600">Previous</li>
+            <li class="py-2 px-4 transition hover:bg-red-600">1</li>
+            <li class="py-2 px-4 transition hover:bg-red-600">2</li>
+            <li class="py-2 px-4 transition hover:bg-red-600">3</li>
+            <li class="py-2 px-4 transition hover:bg-red-600">Next</li>
+        </ul>
+        <ul class="inline-flex cursor-pointer rounded overflow-hidden divide-x bg-dark-100 text-white">
+            <li class="py-2 px-4 transition hover:bg-black">Previous</li>
+            <li class="py-2 px-4 transition hover:bg-black">1</li>
+            <li class="py-2 px-4 transition hover:bg-black">2</li>
+            <li class="py-2 px-4 transition hover:bg-black">3</li>
+            <li class="py-2 px-4 transition hover:bg-black">Next</li>
+        </ul>
+        <ul class="inline-flex cursor-pointer rounded overflow-hidden divide-x bg-slate-600 text-white">
+            <li class="py-2 px-4 transition hover:bg-slate-700">Previous</li>
+            <li class="py-2 px-4 transition hover:bg-slate-700">1</li>
+            <li class="py-2 px-4 transition hover:bg-slate-700">2</li>
+            <li class="py-2 px-4 transition hover:bg-slate-700">3</li>
+            <li class="py-2 px-4 transition hover:bg-slate-700">Next</li>
+        </ul>
+        <ul class="inline-flex cursor-pointer rounded overflow-hidden divide-x bg-indigo-600 text-white">
+            <li class="py-2 px-4 transition hover:bg-indigo-700">Previous</li>
+            <li class="py-2 px-4 transition hover:bg-indigo-700">1</li>
+            <li class="py-2 px-4 transition hover:bg-indigo-700">2</li>
+            <li class="py-2 px-4 transition hover:bg-indigo-700">3</li>
+            <li class="py-2 px-4 transition hover:bg-indigo-700">Next</li>
+        </ul>
+    </section> -->
+    <!-- End Pagination  -->
+    <!-- Start ProgressBar  -->
+    <!-- <section class="flex w-1/2 bg-red-300 h-4 rounded-sm overflow-hidden">
+        <section class="w-1/2 bg-red-700 animate-pulse"></section>
+    </section>
+    <section class="flex w-1/2 bg-green-300 h-4 rounded-sm overflow-hidden">
+        <section class="w-1/3 bg-green-700 animate-pulse"></section>
+    </section>
+    <section class="flex w-1/2 bg-blue-300 h-4 rounded-sm overflow-hidden">
+        <section class="w-3/4 bg-blue-700 animate-pulse"></section>
+    </section> -->
+    <!-- End ProgressBar  -->
+
+    <!-- Start Card  -->
+    <!-- <section class="flex justify-between m-2 gap-x-2 border border-gray-300 shadow-lg rounded-sm overflow-hidden lg:flex-col lg:w-72 lg:h-96">
+        <section class="aspcet-w-16 aspect-h-16">
+            <img src="images/card.webp" alt="avatar" class="w-full h-full">
+        </section>
+        <section class="py-2 flex flex-col justify-between lg:px-3 lg:py-3">
+            <section>
+                <h2 class="text-sm mb-2 sm:text-xl lg:mb-3">Morteza Porabdolahi</h2>
+                <p class="line-clamp-3 text-sm mb-2 sm:text-base lg:mb-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse ad velit eum aut
+                    distinctio. Ratione rem fugiat error fuga inventore? Atque, at? Cumque odit, modi exercitationem illo
+                    quia eveniet velit.</p>
+            </section>
+            <section>
+                <button class="text-xs bg-blue-500 text-white py-1 px-2 sm:text-sm rounded-sm sm:py-2 sm:px-4 focus:ring ring-blue-400 transition">Read More...</button>
+            </section>
+        </section>
+    </section> -->
+    <!-- End Card  -->
+
+    <!-- Start Dropdown -->
+    <!-- <section class="m-3 w-60 inline-flex flex-col rounded-sm overflow-hidden">
+        <section class="inline-flex justify-between items-center gap-x-1 bg-gray-800 px-4 py-2 text-white cursor-pointer hover:bg-gray-900 transition" id="toggleDropdown">
+            Morteza
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor" id="chevronIcon">
+                <path fill-rule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clip-rule="evenodd" />
+            </svg>
+        </section>
+        <section class="divide-y hidden justify-center text-white flex-col bg-gray-600 animate-opacityAnim">
+            <span class="flex items-center p-3 cursor-pointer hover:bg-gray-700 transition gap-x-1">
+                Lock Screen
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd"
+                        d="M5 9V7a5 5 0 0110 0v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2v-5a2 2 0 012-2zm8-2v2H7V7a3 3 0 016 0z"
+                        clip-rule="evenodd" />
+                </svg>
+            </span>
+            <span class="flex items-center p-3 cursor-pointer hover:bg-gray-700 transition gap-x-1">
+                Profile
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
+                        clip-rule="evenodd" />
+                </svg>
+            </span>
+            <span class="flex items-center p-3 cursor-pointer hover:bg-gray-700 transition gap-x-1">
+                Settings
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 animate-spin" viewBox="0 0 20 20"
+                    fill="currentColor">
+                    <path fill-rule="evenodd"
+                        d="M11.49 3.17c-.38-1.56-2.6-1.56-2.98 0a1.532 1.532 0 01-2.286.948c-1.372-.836-2.942.734-2.106 2.106.54.886.061 2.042-.947 2.287-1.561.379-1.561 2.6 0 2.978a1.532 1.532 0 01.947 2.287c-.836 1.372.734 2.942 2.106 2.106a1.532 1.532 0 012.287.947c.379 1.561 2.6 1.561 2.978 0a1.533 1.533 0 012.287-.947c1.372.836 2.942-.734 2.106-2.106a1.533 1.533 0 01.947-2.287c1.561-.379 1.561-2.6 0-2.978a1.532 1.532 0 01-.947-2.287c.836-1.372-.734-2.942-2.106-2.106a1.532 1.532 0 01-2.287-.947zM10 13a3 3 0 100-6 3 3 0 000 6z"
+                        clip-rule="evenodd" />
+                </svg>
+            </span>
+        </section>
+    </section> -->
+    <!-- End Dropdown -->
+
+    <!-- Start navBar -->
+    <!-- <section class="bg-white shadow-lg w-full text-gray-700 py-6 px-4 flex items-center">
+        <ul class="flex w-full justify-between md:justify-start relative md:gap-x-8">
+            <li class="md:hidden">
+                <a href="#" id="openMenu">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M3 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd" />
+                      </svg>
+                </a>
+            </li>
+            <li class="md:hidden" id="showSearch">
+                <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd" />
+                      </svg>
+                </a>
+            </li>
+            <li class="hidden md:block border border-gray-400 p-2 rounded-sm hover:bg-gray-300 cursor-pointer transition">
+                <a href="#">Home</a>
+            </li>
+            <li class="hidden md:block border border-gray-400 p-2 rounded-sm hover:bg-gray-300 cursor-pointer transition">
+                <a href="#">News</a>
+            </li>
+            <li class="hidden md:block border border-gray-400 p-2 rounded-sm hover:bg-gray-300 cursor-pointer transition">
+                <a href="#">Contact</a>
+            </li>
+            <li class="hidden md:block border border-gray-400 p-2 rounded-sm hover:bg-gray-300 cursor-pointer transition">
+                <a href="#">About Us</a>
+            </li>
+        </ul>
+        <section class="absolute hidden justify-end md:w-1/3 md:flex md:static animate-opacityAnim" style="top:1rem;right: 3rem;">
+            <input type="text" class="py-2 px-3 outline-none rounded-sm border border-gray-400 focus:ring ring-gray-300 transition w-full" placeholder="Type Your Search...">
+        </section>
+        <section class="absolute top-0 left-0 bg-gray-100 h-full w-1/2 animate-absoluteAnim hidden">
+            <ul class="flex flex-col h-full text-gray-800 divide-y text-center divide-gray-500">
+                <li class="flex justify-start text-2xl p-2">
+                    <a href="#" id="closeMenu">&times;</a>
+                </li>
+                <li class="py-4">
+                    <a href="#">Home</a>
+                </li>
+                <li class="py-4">
+                    <a href="#">News</a>
+                </li>
+                <li class="py-4">
+                    <a href="#">Contact</a>
+                </li>
+                <li class="py-4">
+                    <a href="#">About Us</a>
+                </li>
+            </ul>
+        </section>
+    </section> -->
+    <!-- End navBar -->
+
+    <!-- Start Dynamic Tabs -->
+    <!-- <section class="w-1/2 h-96 m-2 border border-gray-400 p-5 overflow-hidden">
+        <section class="mb-2">
+            <button class="py-2 px-4 rounded-sm border-x bg-gray-200 btn">1</button>
+            <button class="py-2 px-4 rounded-sm btn">2</button>
+            <button class="py-2 px-4 rounded-sm btn">3</button>
+            <button class="py-2 px-4 rounded-sm btn">4</button>
+        </section>
+        <section class="text">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium numquam obcaecati fuga provident fugiat voluis officia iure dolorum quia sapiente!</p>
+        </section>
+        <section class="text hidden">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis possimus maiores, explicabo, dolores quisquam praesentium cupiditate ipsam magni, voluptas eius eos ab veritatis eveniet itaque. Harum facere nihil corrupti autem rem! Dicta doloribus enim blanditiis a inventore. Fugit odit adipisci suscipit, perspiciatis dolore temporibus voluptatibus exercitationem esse porro, ipsum, sapiente eos eveniet laboriosam error soluta ex aperiam et! Quod, similique! Doloribus assumenda harum ipsa ullam deleniti recusandae optio quo porro.</p>
+        </section>
+        <section class="text hidden">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa delectus, rem quo porro in ut at nostrum, repudiandae dolorum error alias asperiores similique vero? Tempora quidem illum cum ad deserunt iusto modi? Perspiciatis, architecto! Fuga commodi ipsam aliquam iusto culpa optio in earum consequatur perspiciatis! Cumque quod beatae accusamus obcaecati?</p>
+        </section>
+        <section class="text hidden">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis perferendis numquam, blanditiis repellendus voluptates quam. Velit, repellendus dolorum voluptatibus earum facere totam molestias perspiciatis libero tempore soluta aperiam. Blanditiis quaerat, non cum eum soluta odio aliquam quidem veniam placeat numquam enim voluptatem neque perferendis! Esse ad fugiat odio. Labore deleniti laborum dicta fugiat voluptatem asperiores voluptatum est eligendi tenetur, nobis, exercitationem fuga! Aliquam eligendi at neque libero autem modi rem? Molestias suscipit facere consequatur earum? Perspiciatis amet officia, inventore repellendus veritatis obcaecati cupiditate animi a ea labore nemo nostrum dolores quos earum, odio voluptate est at asperiores sed excepturi. Cum.</p>
+        </section>
+    </section> -->
+    <!-- End Dynamic Tabs -->
+    <!-- Start Login & Register -->
+    <section class="flex justify-center m-2">
+        <section class="flex items-center justify-center sm:w-1/2">
+            <section class="w-full py-5 px-8 text-white bg-transparent rounded-sm shadow-lg border border-gray-400">
+                <section class="text-xl flex gap-x-6 mb-8 pb-2 border-b border-gray-200 border-opacity-5">
+                    <button class="active login-register buttons">Login</button>
+                    <button class="login-register buttons">Register</button>
+                </section>
+                <section>
+                    <section class="flex justify-center flex-col items-center" id="social">
+                        <p class="text-2xl font-bold">Or Login With</p>
+                        <section class="flex justify-center my-6 gap-x-5">
+                            <button class="cursor-pointer p-2" data-modal="#twitterModal">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="#1DA1F2"
+                                    class="bi bi-twitter" viewBox="0 0 16 16">
+                                    <path
+                                        d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                                </svg>
+                            </button>
+                            <button class="cursor-pointer" data-modal="#facebookModal">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="#4267B2"
+                                    class="bi bi-facebook rounded-full" style="background-color:  #FFFFFF;"
+                                    viewBox="0 0 16 16">
+                                    <path
+                                        d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                                </svg>
+                            </button>
+                            <button class="cursor-pointer" data-modal="#instagramModal">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor"
+                                    class="bi bi-instagram bg-gradient-to-b rounded-xl from-blue-100 via-purple-100 to-yellow-100"
+                                    viewBox="0 0 16 16">
+                                    <path
+                                        d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                                </svg>
+                            </button>
+                        </section>
+                    </section>
+                    <form class="flex custom-form-style" id="login">
+                        <label for="username" class="text-lg">Username</label>
+                        <input type="text" id="username" class="custom-input" placeholder="Type Your Username...">
+                        <label for="password" class="text-lg">Password</label>
+                        <input type="password" id="password" class="custom-input" placeholder="Type Your Password...">
+                        <button class="custom-btn">Login</button>
+                    </form>
+                    <form class="hidden custom-form-style" id="register">
+                        <label for="username" class="text-lg">Username</label>
+                        <input type="text" id="username" class="custom-input" placeholder="Type Your Username...">
+                        <label for="password" class="text-lg">Password</label>
+                        <input type="password" id="password" class="custom-input" placeholder="Type Your Password...">
+                        <label for="repeatpassword" class="text-lg">Repeat Password</label>
+                        <input type="password" id="repeatpassword" class="custom-input"
+                            placeholder="Type Your Password...">
+                        <button class="custom-btn">Register</button>
+                    </form>
+                </section>
+            </section>
+        </section>
+    </section>
+    <!-- End Login & Register -->
+
+    <section class="modal hidden" id="twitterModal">
+        <section class="w-full sm:w-1/2 m-2 animate-opacityAnim">
+            <section class="bg-white rounded-md overflow-hidden">
+                <section class="bg-blue-500 px-2">
+                    <span class="closeModal closeBtn">&times;</span>
+                    <section class="flex justify-center py-8 items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="#fff" class="bi bi-twitter"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                    </svg>
+                    </section>
+                </section>
+                <section class="flex flex-col py-6 px-4">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" class="custom-input border border-gray-300 mt-2"
+                        placeholder="Type Your Twitter Email...">
+                    <button class="custom-btn">Login</button>
+                </section>
+            </section>
+        </section>
+    </section>
+    <section class="modal hidden" id="facebookModal">
+        <section class="w-full sm:w-1/2 m-2 animate-opacityAnim">
+            <section class="bg-white rounded-md overflow-hidden">
+                <section class="bg-blue-800 px-2">
+                    <span class="closeBtn closeModal">&times;</span>
+                    <section class="flex justify-center py-8 items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="#4267B2"
+                        class="bi bi-facebook rounded-full" style="background-color:  #FFFFFF;"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                    </svg>
+                    </section>
+                </section>
+                <section class="flex flex-col py-6 px-4">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" class="custom-input border border-gray-300 mt-2"
+                        placeholder="Type Your Facebook Email...">
+                    <button class="custom-btn">Login</button>
+                </section>
+            </section>
+        </section>
+    </section>
+    <section class="modal hidden" id="instagramModal">
+        <section class="w-full sm:w-1/2 m-2 animate-opacityAnim">
+            <section class="bg-white rounded-md overflow-hidden">
+                <section class=" bg-gradient-to-b from-blue-100 via-purple-100 to-yellow-100 px-2">
+                    <span class="closeBtn closeModal">&times;</span>
+                    <section class="flex justify-center py-8 items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="#fff"
+                        class="bi bi-instagram bg-gradient-to-b rounded-xl from-blue-100 via-purple-100 to-yellow-100"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                    </svg>
+                    </section>
+                </section>
+                <section class="flex flex-col py-6 px-4">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" class="custom-input border border-gray-300 mt-2"
+                        placeholder="Type Your Instagram Email...">
+                    <button class="custom-btn">Login</button>
+                </section>
+            </section>
+        </section>
+    </section>
+</body>
+<!-- <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script> -->
+<script src="index.js"></script>
+
+</html>
